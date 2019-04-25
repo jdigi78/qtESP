@@ -5,6 +5,8 @@
   https://github.com/jdigi78/qtESP
 */
 
+String deviceName = "qtESP"
+
 #include <qtESP_config.h>
 // Make sure to edit this file in the library folder!
 
