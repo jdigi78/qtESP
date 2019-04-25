@@ -46,6 +46,7 @@ There's a full explaination of the arduino-mqtt API at [256dpi/arduino-mqtt](htt
 
 ### Global Variables
 
+* **deviceName** (String) - String with the custom name of the device, this should be unique as its used for mDNS
 * **wifiStatus** (Bool) - Boolean value of current WiFi connection
 * **mqttStatus** (Bool) - Boolean value of current MQTT connection
 * **chipID** (String) - String containing a unique chip ID number via *ESP.getChipId()*
@@ -63,6 +64,8 @@ You can manage this device by visiting a few web pages hosted on it:
 * Access debug information at *DeviceIP*/debug
 
 All pages are protected by the MQTT username and password, replace *DeviceIP* with the device's assigned IP address
+
+You can also connect to the device without knowledge of the IP by going to http://*deviceName*.local if your router supports mDNS
 
 ## Known Bugs
 
