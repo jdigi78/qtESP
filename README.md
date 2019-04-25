@@ -61,7 +61,6 @@ You can manage this device by visiting a few web pages hosted on it:
 * Flash new firmware over WiFi by going to *DeviceIP*/firmware
 * Reboot by going to *DeviceIP*/reboot
 * Reset the device and wipe the EEPROM by going to *DeviceIP*/factoryreset
-* Access debug information at *DeviceIP*/debug
 
 All pages are protected by the MQTT username and password, replace *DeviceIP* with the device's assigned IP address
 
