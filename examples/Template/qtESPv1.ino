@@ -35,7 +35,7 @@ void setup() {
   httpServer.on("/reboot", httpReboot);
   httpServer.begin();
   // MDNS
-  MDNS.begin("esptest");
+  MDNS.begin(deviceName);
   // MQTT
   mqtt.begin(mqtt_server, mqtt_port, wifi);
   mqtt.onMessage(mqttReceived);
