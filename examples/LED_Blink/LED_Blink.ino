@@ -12,6 +12,8 @@
 #include <qtESP_config.h>
 // Make sure to edit this file in the library folder!
 
+String deviceName = "qtESPtest"
+
 String mqttTopic = "home/bedroom/test";
 int LEDpin = 2;
 
